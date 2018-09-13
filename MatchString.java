@@ -28,6 +28,6 @@ public class MatchString {
                 }
             }
         }
-        return null;
+        return matched;
     }
 }
