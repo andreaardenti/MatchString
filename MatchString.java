@@ -1,3 +1,8 @@
+/**
+ * Simulo l'inserimento di una pswd da parte di un utente e la confronto con un dizionario.
+ * Quindi stampo la pswd inserita una volta confrontata...
+ */
+
 import java.util.Scanner;
 
 public class MatchString {
