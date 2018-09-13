@@ -28,14 +28,6 @@ public class MatchString {
                 }
             }
         }
-
         return null;
     }
-
-    public String match() {
-
-
-        return null;
-    }
-
 }
