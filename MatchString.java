@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class MatchString {
 
-    private String[] dictionary = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "x", "y", "z"};
+    private String[] dictionary = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "x", "y", "z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"};
 
     public String insertPswd() {
 
@@ -24,10 +24,10 @@ public class MatchString {
             for (int y=0; y<dictionary.length; y++) {
                 if (dictionary[y] == pswdArr[i]) {
                     matched = matched + y;
-                    System.out.println("Questa è la tua password: " + matched);
                 }
             }
         }
+        System.out.println("\nQuesta è la tua password: " + matched);
         return matched;
     }
 }
