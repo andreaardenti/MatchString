@@ -27,8 +27,8 @@ public class MatchString {
         //ciclo la passwd e il dizionario
         for (int i=0; i<pswd.length(); i++) {
             for (int y=0; y<dictionary.length; y++) {
-                if (dictionary[y] == pswdArr[i]) {
-                    matched = matched + y;
+                if (dictionary[y].equals(pswdArr[i])) {
+                    matched = matched + dictionary[y];
                 }
             }
         }
